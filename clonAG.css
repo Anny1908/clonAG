@@ -63,3 +63,33 @@ section h2 {
         justify-content: center;
     }
 }
+
+.benefits h2 {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+figure img {
+    margin-bottom: 50px;
+    width: 127px;
+}
+
+footer {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+footer hr {
+    border-color: #eaebec;
+    width: 90%;
+    border-width: 1px 0 0 0;
+}
